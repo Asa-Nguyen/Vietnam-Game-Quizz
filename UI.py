@@ -34,10 +34,6 @@ def get_province_input():
         province = entry.get()
         dialog.destroy()
             
-    def cancel_command():
-        global province
-        province = ""
-        dialog.destroy()
         
     button_frame = tk.Frame(dialog, bg="#f5f5f5")
     button_frame.pack(pady=10)
