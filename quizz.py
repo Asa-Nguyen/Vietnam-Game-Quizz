@@ -12,7 +12,7 @@ def quiz():
     label_3.place(x = 50, y = 250)
     label_4 = Label(root,text="Ta đùm bọc, yêu thương, giúp đỡ nhau ",font = ('Arial',50),bg="yellow")
     label_4.place(x = 50, y = 350)
-    label_5 = Label(root,text="Chúc mọi người 30/04 thật hạnh phúc bên gia đình",font = ('Arial',50),bg="yellow")
+    label_5 = Label(root,text="Chúc mọi người 30/04 hạnh phúc bên gia đình",font = ('Arial',50),bg="yellow")
     label_5.place(x = 50, y = 450)
 
     root.mainloop()
