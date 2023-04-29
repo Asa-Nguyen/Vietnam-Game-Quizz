@@ -5,13 +5,12 @@ from UI import get_province_input,animate_entry
 
 def game(): 
     guessed_province = []
-    answer = get_province_input()
     while len(guessed_province) < 63 :
+        answer = get_province_input()
         if(len(guessed_province) == 63 or answer == "Cancel"):
             break
         data = pd.read_csv("Viet_Nam.csv")
         all_VietNam_province = data.province.to_list()
-        answer = get_province_input()
         if answer in all_VietNam_province:
             if answer in guessed_province:
                 pass

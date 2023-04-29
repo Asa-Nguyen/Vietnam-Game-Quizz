@@ -22,7 +22,7 @@ def get_province_input():
     dialog.attributes("-topmost", True)
     dialog.bind("<Escape>", lambda event: dialog.destroy())
     
-    label = tk.Label(dialog, text="Enter a province:", font=("Arial", 12), bg="#f5f5f5")
+    label = tk.Label(dialog, text="Nhập tỉnh thành cần tra \ntrước khi chơi trò chơi\n(Nhập Cancel để hủy và \n bắt đầu trò chơi)", font=("Arial", 12), bg="#f5f5f5")
     label.pack(pady=10)
     
     entry = tk.Entry(dialog, font=("Arial", 12), bg="#fff", relief=tk.FLAT, borderwidth=2, highlightcolor="#00bcd4", highlightthickness=2)
