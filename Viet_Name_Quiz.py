@@ -2,6 +2,7 @@ import turtle
 import pandas as pd
 import tkinter as tk
 from game_play import game
+from quizz import quiz
 
 if __name__ == "__main__":
     turtle.title('Hello Tux')
@@ -11,6 +12,7 @@ if __name__ == "__main__":
     screen.addshape(image)
     turtle.shape(image)
     game()
+    quiz()
 
 
 
